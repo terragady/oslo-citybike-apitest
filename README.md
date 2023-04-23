@@ -1,1 +1,0 @@
-# oslo-citybike-apitest
