@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <Wrapper>
       <Header>Oslo City Bike Data</Header>
-      <Row>
+      <Row style={{ cursor: 'pointer' }}>
         <NameCell onClick={() => setSortBy('name')}>Name</NameCell>
         <SmallCell onClick={() => setSortBy('capacity')}>Capacity</SmallCell>
         <SmallCell onClick={() => setSortBy('num_bikes_available')}>Bikes Available</SmallCell>
